@@ -4,3 +4,11 @@ body{
 
 .customColor{
     background-color: #4f00c0
+}
+
+.customMenu
+{
+    box-shadow: 0;!important
+    color: 0;!important
+    border-color:0; !important
+}
