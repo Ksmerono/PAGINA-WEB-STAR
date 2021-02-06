@@ -8,7 +8,7 @@ body{
 
 .customMenu
 {
-    box-shadow: 0;!important
-    color: 0;!important
-    border-color:0; !important
+    box-shadow: none !important;
+    color: white !important;
+    border-color: white !important;
 }
