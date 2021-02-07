@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FASHION STAR</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb" class="main-breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    Profile Settings
+                </li>
+            </ol>
+        </nav>
+        <!-- /Breadcrumb -->
+        <!-- imagen usuario -->
+        <div class="row gutters-sm">
+            <div class="col-md-4 d-none d-md-block">
+                <div class="card">
+                    <img src="./img/user.png" class="img-fluid" width="400" alt="Foto de usuario" />
+                </div>
+            </div>
+            <!-- /imagen usuario -->
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body tab-content">
+                        <div class="tab-pane active" id="profile">
+                            <h6>INFORMACION PRESONAL</h6>
+                            <hr />
+                            <form>
+                                <div class="form-group">
+                                    <label>Nombre</label>
+                                    <input type="text" class="form-control" value="Nombre ejemplo" />
+                                    <label>Apellidos</label>
+                                    <input type="text" class="form-control" value="Apellido ejemplo" />
+                                    <label>Fecha nacimiento</label>
+                                    <input type="date" class="form-control" value="" />
+                                    <label>Correo electronico</label>
+                                    <input type="text" class="form-control" value="ejemplo@correo.com" />
+                                    <label >Direccion principal</label>
+                                    <input type="text" class="form-control" value="Madrid ,España" placeholder="Introduzca dirreccion" />
+                                    <label >Direccion Secundaria</label>
+                                    <input type="text" class="form-control" value="" placeholder="Introduzca dirreccion" />
+                                </div>
+
+                                <div class="form-group small text-muted mt-3 mb-3"></div>
+                                <button type="button" class="btn customColor text-white ">
+                                    Modificar datos personales
+                                </button>
+
+                                
+                            </form>
+                         </div>
+                             <hr />  
+                            <h6>TIPOS DE PAGO</h6>
+                            <div class="row">
+                                <div class="col ">
+                                    <img src="./img/FROM_TARGET.png"  class="img-fluid"  alt="">
+                                    <div class="row mt-1">
+                                        <div class="col ">
+                                            <img src="./img/PAYPAL.png"  class="img-fluid"  alt="Paypal">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./img/VISA.png"  class="img-fluid" style="filter: grayscale(100%)" alt="Visa">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./img/MASTERCARD.png"  class="img-fluid" style="filter: grayscale(100%)" alt="Mastercard">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./img/AMERICAN EXPRESS.png"  class="img-fluid" style="filter: grayscale(100%)" alt="American Express">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col ">
+                                    <img src="./img/FROM_TARGET.png"  class="img-fluid" style="filter: grayscale(100%)"  alt="">
+                                    <div class="row mt-1">
+                                        <div class="col ">
+                                            <img src="./img/PAYPAL.png"  class="img-fluid" style="filter: grayscale(100%)" alt="Paypal">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./img/VISA.png"  class="img-fluid" style="filter: grayscale(100%)" alt="Visa">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./img/MASTERCARD.png"  class="img-fluid" style="filter: grayscale(100%)" alt="Mastercard">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./img/AMERICAN EXPRESS.png"  class="img-fluid" style="filter: grayscale(100%)" alt="American Express">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col ">
+                                    <img src="./img/FROM_TARGET.png"  class="img-fluid" style="filter: grayscale(100%)" alt="">
+                                    <div class="row mt-1">
+                                        <div class="col ">
+                                            <img src="./img/PAYPAL.png"  class="img-fluid" style="filter: grayscale(100%)" alt="Paypal">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./img/VISA.png"  class="img-fluid" style="filter: grayscale(100%)" alt="Visa">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./img/MASTERCARD.png"  class="img-fluid" style="filter: grayscale(100%)" alt="Mastercard">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./img/AMERICAN EXPRESS.png"  class="img-fluid" style="filter: grayscale(100%)" alt="American Express">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <form>
+                                <div class="form-group">
+                                    <label class="d-block mb-0">Metodo de pago</label>
+                                    <div class="small text-muted mb-3">
+                                       No has añadidio un metodo de pago
+                                    </div>
+                                    <button class="btn btn-info" type="button">
+                                        Añadir metodo de pago
+                                    </button>
+                                    <button class="btn btn-info" type="button">
+                                        Editar metodo de pago
+                                    </button>
+                                </div>
+                                <div class="form-group mb-0">
+                                    <label class="d-block">ULTIMAS COMPRAS</label>
+                                    <div class="border border-gray-500 bg-gray-200 p-3 text-center font-size-sm">
+                                        No has comprado nada.
+                                    </div>
+                                </div>
+                            </form>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
