@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
 </head>
-
+ 
 <body>
     <div class="container">
         <!-- Breadcrumb -->
@@ -25,22 +25,24 @@
             </ol>
         </nav>
         <!-- /Breadcrumb -->
-        <!-- imagen usuario -->
-        <div class="row gutters-sm">
-            <div class="col-md-4 d-none d-md-block">
-                <div class="card">
-                    <img src="./img/user.png" class="img-fluid" width="400" alt="Foto de usuario" />
-                </div>
-            </div>
-            <!-- /imagen usuario -->
-            <div class="col-md-8">
-                <div class="card">
+       
+         
+            <div class="col-md-12">
+                <div class="card mb-3">
                     <div class="card-body tab-content">
-                        <div class="tab-pane active" id="profile">
-                            <h6>INFORMACION PRESONAL</h6>
-                            <hr />
+                        <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title">INFORMACION PRESONAL</h5>
+                            </div>
+                        </div>
+                        
+                        <div class="row ">
+                            <div class="col-md-3">
+                                <img src="./img/user.png" class="img-fluid" width="100" alt="Foto de usuario" />
+                            </div>  
+                            <div class="col-md-6 form-group">
                             <form>
-                                <div class="form-group">
+                               
                                     <label>Nombre</label>
                                     <input type="text" class="form-control" value="Nombre ejemplo" />
                                     <label>Apellidos</label>
@@ -53,21 +55,35 @@
                                     <input type="text" class="form-control" value="Madrid ,España" placeholder="Introduzca dirreccion" />
                                     <label >Direccion Secundaria</label>
                                     <input type="text" class="form-control" value="" placeholder="Introduzca dirreccion" />
-                                </div>
+                                
 
-                                <div class="form-group small text-muted mt-3 mb-3"></div>
+                               
                                 <button type="button" class="btn customColor text-white ">
                                     Modificar datos personales
                                 </button>
-
-                                
                             </form>
-                         </div>
-                             <hr />  
+                            </div>
+                        </div>
+
+                    </div> 
+                </div>       
+                    <div class="card mb-3">
+                        <div class="card-body tab-content">
+
+
+                              
                             <h6>TIPOS DE PAGO</h6>
                             <div class="row">
                                 <div class="col ">
-                                    <img src="./img/FROM_TARGET.png"  class="img-fluid"  alt="">
+                                    <div class="card">
+                                        <img src="./img/FROM_TARGET.png"  class="img-fluid"  alt="">
+                                        <div class="card-img-overlay module mid">
+                                            <p class="card-title text-white mt-3 mx-3 ">
+                                                XXXXXXXXX
+                                            </p>
+                                        </div>
+                                    </div>
+                                    
                                     <div class="row mt-1">
                                         <div class="col ">
                                             <img src="./img/PAYPAL.png"  class="img-fluid"  alt="Paypal">
@@ -120,32 +136,53 @@
                                     </div>
                                 </div>
                             </div>
-                            
-                            <form>
-                                <div class="form-group">
-                                    <label class="d-block mb-0">Metodo de pago</label>
-                                    <div class="small text-muted mb-3">
-                                       No has añadidio un metodo de pago
-                                    </div>
-                                    <button class="btn btn-info" type="button">
-                                        Añadir metodo de pago
-                                    </button>
-                                    <button class="btn btn-info" type="button">
-                                        Editar metodo de pago
-                                    </button>
+                       
+                            <div class="form-group">
+                                <label class="d-block mb-0">Metodo de pago</label>
+                                <div class="small text-muted mb-3">
+                                No has añadidio un metodo de pago
                                 </div>
+                             <button class="btn btn-info" type="button">
+                                    Añadir metodo de pago
+                              </button>
+                                <button class="btn btn-info" type="button">
+                                    Editar metodo de pago
+                                </button>
+                            </div>
+                        </div> 
+                    </div> 
+
+
+                            <div class="card mb-3">
+                                <div class="card-body tab-content">
+                            <form>
+
                                 <div class="form-group mb-0">
                                     <label class="d-block">ULTIMAS COMPRAS</label>
                                     <div class="border border-gray-500 bg-gray-200 p-3 text-center font-size-sm">
-                                        No has comprado nada.
+                                        <table class="table table-striped">
+                                            <tr>
+                                            <td>Fotografia</td> <td>Nombre producto</td> <td>Precio</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ejemplo</td><td>ejemplo</td><td>ejemplo</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ejemplo</td><td>ejemplo</td><td>ejemplo</td>
+                                            </tr>
+                                          </table>
                                     </div>
                                 </div>
                             </form>
+                                 </div>
+                              </div>
 
 
-                        </div>
+
+                      
+                        
                     </div>
-                </div>
+                
             </div>
         </div>
     </div>
