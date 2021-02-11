@@ -10,76 +10,20 @@
   <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+  <script>
+    function change_image(image){
+
+  var container = document.getElementById("main-image");
+
+  container.src = image.src;
+  }
+  
+  document.addEventListener("DOMContentLoaded", function(event) {
+  });
+  </script>
+
 </head>
 
-<body data-new-gr-c-s-check-loaded="14.993.0" data-gr-ext-installed="">
-  <div class="container-fluid bg-dark">
-    <div class="row ps-4 pe-4">
-      <div class="col-lg-6 col-sm-12 text-lg-start text-center">
-        <buttom class="btn" onclick="window.location.href='index.html'"><img class="img-fluid" src="img/star_logo2.png"
-            style="height: 55px" alt="logo" /></buttom>
-      </div>
-
-      <div class="col-lg-6 col-sm-12 text-lg-end text-center">
-        <buttom class="btn ms-2 me-2"><i class="bi bi-search" style="font-size: 2rem; color: rgb(255, 255, 255)"></i>
-        </buttom>
-        <buttom class="btn ms-2 me-2"><i class="bi bi-heart " style="font-size: 2rem; color: rgb(255, 255, 255)"></i>
-        </buttom>
-        <buttom class="btn ms-2 me-2"><i class="bi bi-bag-fill " style="font-size: 2rem; color: rgb(255, 255, 255)"></i>
-        </buttom>
-      </div>
-    </div>
-  </div>
-  <header class="header p-3">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white" aria-label="Twelfth navbar example">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
-          <ul class="navbar-nav"  >
-            <li class="nav-item ">
-              <a class="nav-link text-dark "href="#" >MUJER</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">HOMBRE</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">JUNIOR</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">ACCESORIOS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">DECORACIÓN</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <nav class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-
-          <!-- Breadcrumb -->
-          <ol class="breadcrumb mb-0 font-size-xs text-gray-400">
-            <li class="breadcrumb-item">
-              <a class="text-gray-400 text-decoration-none text-dark"  href="index.html">Home</a>
-            </li>
-            <li class="breadcrumb-item">
-              <a class="text-gray-400 text-decoration-none text-dark" href="shop.html"> Accesorios</a>
-            </li>
-            <li class="breadcrumb-item active">
-              Bag with Flap
-            </li>
-          </ol>
-        </div>
-      </div>
-    </div>
-  </nav>
   <section>
     <div class="container">
       <div class="row">
@@ -88,57 +32,18 @@
             <div class="col-12 col-md-6">
 
               <!-- Images -->
-              <div class="form-row mb-10 mb-md-0">
-                <div class="col-6 ">
-
-                  <!-- Card -->
-                  <a class="card-body mb-4  " href="img/4.jpg" data-fancybox="">
-                    <!-- Image -->
-                    <img class="card-img-top  " src="img/4.jpg" alt="...">
-
-                  </a>
-
-                </div>
-                <div class="col-6 ">
-
-                  <!-- Card -->
-                  <a class=" card-body mb-4 " href="img/5.jpg" data-fancybox="">
-
-                    <!-- Image -->
-                    <img class="card-img-top " src="img/5.jpg" alt="...">
-
-                  </a>
-
-                </div>
-                <div class="col-6">
-
-                  <!-- Card -->
-                  <a class="  card-body mb-4" href="img/6.jpg" data-fancybox="">
-
-                    <!-- Image -->
-                    <img class="card-img-top " src="img/6.jpg" alt="...">
-
-                  </a>
-
-                </div>
-                <div class="col-6">
-
-                  <!-- Card -->
-                  <a class="card-body mb-4" href="img/7.jpg" data-fancybox="">
-
-                    <!-- Image -->
-                    <img class="card-img-top " src="img/7.jpg" alt="...">
-
-                  </a>
-
-                </div>
-              </div>
+              <div class="images">
+                <div class="text-center pb-2"> <img id="main-image" src="img/4.jpg" width="400" /> </div>
+                <div class="thumbnail text-center"> 
+                  <img onclick="change_image(this)" src="img/4.jpg" width="70"> 
+                  <img onclick="change_image(this)" src="img/5.jpg" width="70"> </div>
+            </div>
 
             </div>
-            <div class="col-12 col-md-6 pl-lg-10">
+            <div class="col-12 col-md-6 d-flex">
 
               <!-- Header -->
-              <div class="row mb-1">
+              <div class="row mb-1 align-self-center">
                 <div class="col">
 
                 </div>
@@ -245,7 +150,7 @@
           <div class="tab-content">
             <div class="tab-pane fade active show" id="descriptionTab">
               <div class="row justify-content-center py-9">
-                <div class="col-12 col-lg-10 col-xl-8">
+                <div class="col-12">
                   <div class="row">
                     <div class="col-12 p-5">
 
@@ -353,14 +258,14 @@
     <div class="container">
       <div class="row p-5">
         <hr >
-        <div class="col-12 p-5">
+        <div class="col-12 ">
 
           <!-- Heading -->
           <h4 class="mb-13 text-center">You might also like</h4>
 
           <!-- Items -->
           <div class="row">
-            <div class="col-6 col-sm-6 col-md-4">
+            <div class="col-6 col-sm-6 col-md-3">
 
               <!-- Card -->
               <div class="card mb-7 mb-md-0">
@@ -369,7 +274,7 @@
                 <img class="card-img-top" src="img/8.jpg" alt="...">
 
                 <!-- Body -->
-                <div class="card-body px-0 pb-0 bg-white">
+                <div class="card-body p-2 bg-white">
                   <div class="row no-gutters">
                     <div class="col">
 
@@ -398,7 +303,8 @@
               </div>
 
             </div>
-            <div class="col-6 col-sm-6 col-md-4">
+            
+            <div class="col-6 col-sm-6 col-md-3">
 
               <!-- Card -->
               <div class="card mb-7 mb-md-0">
@@ -407,7 +313,7 @@
                 <img class="card-img-top" src="img/9.jpg" alt="...">
 
                 <!-- Body -->
-                <div class="card-body px-0 pb-0 bg-white">
+                <div class="card-body p-2 bg-white">
                   <div class="row no-gutters">
                     <div class="col">
 
@@ -436,27 +342,27 @@
               </div>
 
             </div>
-            <div class="col-6 col-sm-6 col-md-4">
+            <div class="col-6 col-sm-6 col-md-3">
 
               <!-- Card -->
-              <div class="card mb-0">
+              <div class="card mb-7 mb-md-0">
 
                 <!-- Image -->
-                <img class="card-img-top" src="img/10.jpg" alt="...">
+                <img class="card-img-top" src="img/9.jpg" alt="...">
 
                 <!-- Body -->
-                <div class="card-body px-0 pb-0 bg-white">
+                <div class="card-body p-2 bg-white">
                   <div class="row no-gutters">
                     <div class="col">
 
                       <!-- Title -->
-                      <a class="d-block font-weight-bold text-body" href="product.html">
-                        Leather key Case
+                      <a class="d-block font-weight-bold text-body text-decoration-none" href="product.html">
+                        Heel strappy Sandals
                       </a>
 
                       <!-- Category -->
-                      <a class="font-size-xs text-muted" href="shop.html">
-                        Bags
+                      <a class="font-size-xs text-muted p-1" href="shop.html">
+                        Shoes
                       </a>
 
                     </div>
@@ -464,7 +370,45 @@
 
                       <!-- Price -->
                       <div class="font-size-sm font-weight-bold text-muted">
-                        $29.00
+                        $90.00
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+            <div class="col-6 col-sm-6 col-md-3">
+
+              <!-- Card -->
+              <div class="card mb-7 mb-md-0">
+
+                <!-- Image -->
+                <img class="card-img-top" src="img/9.jpg" alt="...">
+
+                <!-- Body -->
+                <div class="card-body p-2 bg-white">
+                  <div class="row no-gutters">
+                    <div class="col">
+
+                      <!-- Title -->
+                      <a class="d-block font-weight-bold text-body text-decoration-none" href="product.html">
+                        Heel strappy Sandals
+                      </a>
+
+                      <!-- Category -->
+                      <a class="font-size-xs text-muted p-1" href="shop.html">
+                        Shoes
+                      </a>
+
+                    </div>
+                    <div class="col-auto">
+
+                      <!-- Price -->
+                      <div class="font-size-sm font-weight-bold text-muted">
+                        $90.00
                       </div>
 
                     </div>
@@ -629,30 +573,5 @@
     </div>
   </section>
 
-   
-  <footer class="container">
-  <div class="container-fluid bg-dark text-white ">
-    <div class="row ps-4 pe-4">
-      <div class="col-lg-6 col-sm-12 text-lg-start text-center mb-2 mt-4 ">
-        <p>2021 © FASHION STAR</p>
-      </div>
-
-
-      <div class="col-lg-6 col-sm-12 text-lg-end text-center">
-
-        <buttom class="btn ms-2 me-2 mb-2 "><i class="bi bi-twitter "
-            style="font-size: 2rem; color: rgb(255, 255, 255)"></i></buttom>
-
-
-        <buttom class="btn ms-2 me-2 mb-2"><i class="bi bi-instagram"
-            style="font-size: 2rem; color: rgb(255, 255, 255)"></i></buttom>
-
-        <buttom class="btn ms-2 me-2 mb-2"><i class="bi bi-facebook"
-            style="font-size: 2rem; color: rgb(255, 255, 255)"></i></buttom>
-
-      </div>
-    </div>
-  </div>
-</footer>
 </body>
 </html
