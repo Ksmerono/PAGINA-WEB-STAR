@@ -188,178 +188,100 @@
                 </div>
               </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
               <h5 class="mb-3 ">Pago </h5>
-              <div class="list-group list-group-sm mb-7">
-                <div class="list-group-item pb-3 pt-3">
-                  <!-- Radio -->
-                  <div class="custom-control custom-radio">
-                    <!-- Input -->
-                    <input class="custom-control-input" id="checkoutPaymentCard" name="payment" type="radio"
-                      data-bs-toggle="collapse" data-bs-target="#checkoutPaymentCardCollapse" aria-expanded="true">
-                    <!-- Label -->
-                    <label class="custom-control-label font-size-sm text-body text-nowrap" for="checkoutPaymentCard">
-                      Credit Card <img class="ml-2" src="cards.svg" alt="...">
-                    </label>
-                  </div>
+
+
+              <div class="list-group-item">
+
+                <!-- Radio -->
+                <div class="custom-control custom-radio">
+
+                  <!-- Input -->
+                  <input class="custom-control-input collapsed" id="checkoutPaymentCard" name="payment" type="radio" data-toggle="collapse" data-action="show" data-target="#checkoutPaymentCardCollapse" aria-expanded="false">
+
+                  <!-- Label -->
+                  <label class="custom-control-label font-size-sm text-body text-nowrap" for="checkoutPaymentCard">
+                    Credit Card <img class="ml-2" src="assets/img/brands/color/cards.svg" alt="...">
+                  </label>
+
                 </div>
 
-                <div class="list-group-item py-0 collapse show pb-3" id="checkoutPaymentCardCollapse">
-                  <!-- Form -->
+              </div>
+              <div class="list-group-item py-0 collapse" id="checkoutPaymentCardCollapse" style="">
 
-                  <div class="form-label pt-3">
-                    <div class="row">
-                      <div class="col-12 col-md-6">
-                        <div class="form-group mb-3  ">
-                          <label class="sr-only" for="checkoutPaymentCardNumber">Número de tarjeta</label>
-                          <input class="form-control form-control-sm" id="checkoutPaymentCardNumber" type="text"
-                            required="">
-                        </div>
-                      </div>
-                      <div class="col-12 col-md-6">
-                        <div class="form-group mb-3">
-                          <label class="sr-only" for="checkoutPaymentCardName">Nombre en la tarjeta</label>
-                          <input class="form-control form-control-sm" id="checkoutPaymentCardName" type="text"
-                            required="">
-                        </div>
-                      </div>
+                <!-- Form -->
+                <div class="form-row py-5">
+                  <div class="col-12">
+                    <div class="form-group mb-4">
+                      <label class="sr-only" for="checkoutPaymentCardNumber">Card Number</label>
+                      <input class="form-control form-control-sm" id="checkoutPaymentCardNumber" type="text" placeholder="Card Number *" required="">
                     </div>
-
-                    <div class="row">
-                      <div class="col-4 col-md-5">
-                        <div class="form-group mb-md-1 ">
-                          <label class="sr-only" for="checkoutPaymentMonth">Mes</label>
-                          <select class="form-select custom-select-sm" id="checkoutPaymentMonth">
-                            <option>January</option>
-                            <option>February</option>
-                            <option>March</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="col-4 col-md-4 pb-3">
-                        <div class="form-group mb-md-0">
-                          <label class="sr-only" for="checkoutPaymentCardYear">Año</label>
-                          <select class="form-select custom-select-sm" id="checkoutPaymentCardYear">
-                            <option>2017</option>
-                            <option>2018</option>
-                            <option>2019</option>
-                          </select>
-                        </div>
-                      </div>
-
-
-                      <div class="col-4 col-md-3 pb-3">
-                        <div class="form-group mb-md-0">
-                          <label class="sr-only""></label>
-                          <div class=" input-group input-group-merge">
-
-                            <input class="form-control form-control-sm" id="checkoutPaymentCardCVV" type="text"
-                              placeholder="CVV *" required="">
-                            <div class="input-group-append">
-                              <span class="input-group-text" data-toggle="popover" data-placement="top"
-                                data-trigger="hover"
-                                data-content="The CVV Number on your credit card or debit card is a 3 digit number on VISA, MasterCard and Discover branded credit and debit cards."
-                                data-original-title="" title="">
-                                <i class="bi bi-question-circle"></i>
-                              </span>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group mb-4">
+                      <label class="sr-only" for="checkoutPaymentCardName">Name on Card</label>
+                      <input class="form-control form-control-sm" id="checkoutPaymentCardName" type="text" placeholder="Name on Card *" required="">
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="form-group mb-md-0">
+                      <label class="sr-only" for="checkoutPaymentMonth">Month</label>
+                      <select class="custom-select custom-select-sm" id="checkoutPaymentMonth">
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="form-group mb-md-0">
+                      <label class="sr-only" for="checkoutPaymentCardYear">Year</label>
+                      <select class="custom-select custom-select-sm" id="checkoutPaymentCardYear">
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="input-group input-group-merge">
+                      <input class="form-control form-control-sm" id="checkoutPaymentCardCVV" type="text" placeholder="CVV *" required="">
+                      <div class="input-group-append">
+                        <span class="input-group-text" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="The CVV Number on your credit card or debit card is a 3 digit number on VISA, MasterCard and Discover branded credit and debit cards." data-original-title="" title="">
+                          <i class="fe fe-help-circle"></i>
                         </span>
                       </div>
                     </div>
                   </div>
                 </div>
 
+              </div>
+              <div class="list-group-item">
 
-                
+                <!-- Radio -->
+                <div class="custom-control custom-radio">
 
-                <div class="form-check p-2 ps-4">
-                  <input type="checkbox" class="form-check-input" id="save-info">
-                  <label class="form-check-label " for="save-info">Guardar mi información para la proxima vez</label>
+                  <!-- Input -->
+                  <input class="custom-control-input collapsed" id="checkoutPaymentPaypal" name="payment" type="radio" data-toggle="collapse" data-action="hide" data-target="#checkoutPaymentCardCollapse" aria-expanded="false">
+
+                  <!-- Label -->
+                  <label class="custom-control-label font-size-sm text-body text-nowrap" for="checkoutPaymentPaypal">
+                    <img src="assets/img/brands/color/paypal.svg" alt="...">
+                  </label>
+
                 </div>
 
-                <button class="w-100 btn btn-primary btn-lg" style="background-color: #4f00c0;;" type="submit">Continue
-                  to checkout</button>
+              </div>
+            
+              
             </form>
           </div>
-
-
-
-
-
-
-
-
-
-
-
-          <div class="list-group-item  ">
-            <!-- Radio -->
-            <div class="custom-control custom-radio">
-              <!-- Input -->
-              <input class="custom-control-input" id="checkoutPaymentPaypal" name="payment" type="radio" data-bs-toggle="collapse"  data-bs-target="#checkoutPaymentCardCollapse" aria-expanded="true">
-              <!-- Label -->
-              <label class="custom-control-label font-size-sm text-body text-nowrap " for="checkoutPaymentPaypal">
-                <img src="paypal.svg" alt="...">
-              </label>
-            </div>
-          </div>
-          
-          
-          <div class="list-group-item  py-0 show" id="checkoutPaymentPaypal" >
-            <div class="form-row pb-3">
-              <div class="col-12">
-            <div class="form-group col-md-8 py-3">
-              <input type="email" class="form-control" id="mail" placeholder="Email">
-            </div>
-            <div class="form-group col-md-4">
-              <a href="#!" class="btn btn-block btn-secondary" ">Pay with paypal</a>
-            </div>
-          </div>
-          
-            </div>
-          </div>
-
-
-
-
-
-
         </div>
+      </div>
     </main>
-
-    <footer class="my-5 pt-5 text-muted text-center text-small">
-      <p class="mb-1">&copy; 2017–2021 Company Name</p>
-      <ul class="list-inline">
-        <li class="list-inline-item"><a href="#">Privacy</a></li>
-        <li class="list-inline-item"><a href="#">Terms</a></li>
-        <li class="list-inline-item"><a href="#">Support</a></li>
-      </ul>
-    </footer>
   </div>
 
-  <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"></script>
-
-  <script src="form-validation.js"></script>
 
 </body>
 
 </html>
-
-
-
