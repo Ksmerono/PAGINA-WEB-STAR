@@ -59,9 +59,17 @@
               </div>
 
               <div class="sizes mt-5">
-                <h6 class="text-uppercase">Size</h6> <label class="radio"> <input type="radio" name="size" value="S" checked> <span>S</span> </label> <label class="radio"> <input type="radio" name="size" value="M"> <span>M</span> </label> <label class="radio"> <input type="radio" name="size" value="L"> <span>L</span> </label> <label class="radio"> <input type="radio" name="size" value="XL"> <span>XL</span> </label> <label class="radio"> <input type="radio" name="size" value="XXL"> <span>XXL</span> </label>
+                <h6 class="text-uppercase">Talla</h6> 
+                <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+                  <div class="btn-group me-2" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-light" style="border-color: #4f00c0;">S</button>
+                    <button type="button" class="btn btn-light" style="border-color: #4f00c0;">M</button>
+                    <button type="button" class="btn btn-light" style="border-color: #4f00c0;">L</button>
+                    <button type="button" class="btn btn-light" style="border-color: #4f00c0;">XL</button>
+                    <button type="button" class="btn btn-light" style="border-color: #4f00c0;">XLL</button>
+                  </div>
             </div>
-            <div class="cart mt-4 align-items-center">  <i class="fa fa-heart text-muted"></i> <i class="fa fa-share-alt text-muted"></i> </div>
+           
 
 
               <!-- Form -->
@@ -70,7 +78,7 @@
 
                   <!-- Label -->
                   <p class="mb-4">
-                    Color: <strong id="colorCaption">Black</strong>
+                    Color: <strong id="colorCaption">Negro</strong>
                   </p>
                   
                 <div class="form-group">
@@ -87,36 +95,26 @@
                       </select>
 
                     </div>
+
                     <div class="row">
                     <div class="col-12 ">
 
                       <!-- Submit -->
-                      <button style="background-color:#4f00c0 ;" type="submit" class="btn btn-block btn-dark mb-2">
+                      <button style="background-color:#4f00c0 ;" type="submit" class="btn btn-block btn-dark mb-2 ">
                         Add to Cart 
                       </button>
-                      <div class="col-12 ">
-                        <i class="bi bi-heart-fill" style="font-size: 2rem; color:#4f00c0; "></i>
-                        </div>
+                      <i class="bi bi-heart ml-4" style="font-size: 2rem; color:#4f00c0; "></i>
                     </div>
                   </div>
 
-                  <!-- Text -->
-                  <p>
-                    <span class="text-gray-500">Is your size/color sold out?</span>
-                    <a class="text-reset text-decoration-underline" data-toggle="modal" href="#modalWaitList">Join the Wait List!</a>
-                  </p>
-
                   <!-- Share -->
                   <p class="mb-0">
-                    <span class="mr-4">Share:</span>
-                    <a class="btn btn-xxs btn-circle btn-light font-size-xxxs text-gray-350" href="#!">
-                      <i class="fab fa-twitter"></i>
+                    <span class="mr-4">Compartir:</span>
+                    <a class="btn btn-xxs btn-circle btn-transparent font-size-xxxs text-gray-350" style="color:#4f00c0;" href="#!">
+                      <i class="bi bi-twitter"></i>
                     </a>
-                    <a class="btn btn-xxs btn-circle btn-light font-size-xxxs text-gray-350" href="#!">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a class="btn btn-xxs btn-circle btn-light font-size-xxxs text-gray-350" href="#!">
-                      <i class="fab fa-pinterest-p"></i>
+                    <a class="btn-xxs btn-circle btn-transparent font-size-xxxs text-gray-350"  style="color:#4f00c0;" href="#!">
+                      <i class="bi bi-facebook"></i>
                     </a>
                   </p>
 
@@ -138,10 +136,10 @@
           <!-- Nav -->
           <div class="nav nav-tabs nav-overflow justify-content-start justify-content-md-center border-bottom">
             <a class="nav-link active text-dark" data-bs-toggle="tab" href="#descriptionTab">
-              Description
+              Descripción
             </a>
             <a class="nav-link text-dark" data-bs-toggle="tab" href="#shippingTab">
-              Shipping &amp; Return
+              Envios & Devoluciones
             </a>
           </div>
 
@@ -166,13 +164,13 @@
                       <!-- List -->
                       <ul class="list list-unstyled mb-md-0 text-gray-500 text-center ">
                         <li>
-                          <strong class="text-body">SKU</strong>: #61590437
+                          <strong class="text-body">Referencia</strong>: #61590437
                         </li>
                         <li>
-                          <strong class="text-body">Occasion</strong>: Lifestyle, Sport
+                          <strong class="text-body">Ocasión</strong>: Lifestyle, Sport
                         </li>
                         <li>
-                          <strong class="text-body">Country</strong>: Italy
+                          <strong class="text-body">País</strong>: Italy
                         </li>
                       </ul>
 
@@ -206,29 +204,29 @@
                     <table class="table table-bordered table-sm table-hover">
                       <thead>
                         <tr>
-                          <th>Shipping Options</th>
-                          <th>Delivery Time</th>
-                          <th>Price</th>
+                          <th>Opciones de envio</th>
+                          <th>Tiempo de entrega</th>
+                          <th>Precio</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>Standard Shipping</td>
-                          <td>Delivery in 5 - 7 working days</td>
+                          <td>Envio Estandar</td>
+                          <td>Envio entre 5-7 dias laborables</td>
                           <td>$8.00</td>
                         </tr>
                         <tr>
-                          <td>Express Shipping</td>
-                          <td>Delivery in 3 - 5 working days</td>
+                          <td> Envio Express </td>
+                          <td>Envio entre 3-5 dias laborabless</td>
                           <td>$12.00</td>
                         </tr>
                         <tr>
-                          <td>1 - 2 day Shipping</td>
-                          <td>Delivery in 1 - 2 working days</td>
+                          <td> Enio en 1 - 2 dias</td>
+                          <td>Envio entre 1-2 dias laborables</td>
                           <td>$12.00</td>
                         </tr>
                         <tr>
-                          <td>Free Shipping</td>
+                          <td>Envio gratis</td>
                           <td>
                             Living won't the He one every subdue meat replenish
                             face was you morning firmament darkness.
@@ -253,6 +251,7 @@
       </div>
     </div>
   </section>
+
   <section class="pt-11">
     <div class="container">
       <div class="row p-5">
@@ -260,7 +259,7 @@
         <div class="col-12 ">
 
           <!-- Heading -->
-          <h4 class="mb-13 text-center">You might also like</h4>
+          <h4 class="mb-13 text-center">Tambien te puede interesar</h4>
 
           <!-- Items -->
           <div class="row">
@@ -283,8 +282,8 @@
                       </a>
 
                       <!-- Category -->
-                      <a class="font-size-xs text-muted p-1" href="shop.html">
-                        Accessories
+                      <a class="font-size-xs text-muted p-1 text-decoration-none" href="shop.html">
+                        Accesorios
                       </a>
 
                     </div>
@@ -322,8 +321,8 @@
                       </a>
 
                       <!-- Category -->
-                      <a class="font-size-xs text-muted p-1" href="shop.html">
-                        Shoes
+                      <a class="font-size-xs text-muted p-1 text-decoration-none" href="shop.html">
+                        Zapatos
                       </a>
 
                     </div>
@@ -360,8 +359,8 @@
                       </a>
 
                       <!-- Category -->
-                      <a class="font-size-xs text-muted p-1" href="shop.html">
-                        Shoes
+                      <a class="font-size-xs text-muted p-1 text-decoration-none" href="shop.html">
+                        Zapatos
                       </a>
 
                     </div>
@@ -398,8 +397,8 @@
                       </a>
 
                       <!-- Category -->
-                      <a class="font-size-xs text-muted p-1" href="shop.html">
-                        Shoes
+                      <a class="font-size-xs text-muted p-1 text-decoration-none" href="shop.html">
+                        Zapatos
                       </a>
 
                     </div>
@@ -409,164 +408,58 @@
                       <div class="font-size-sm font-weight-bold text-muted">
                         $90.00
                       </div>
-
                     </div>
                   </div>
                 </div>
-
               </div>
-
             </div>
-            <div class="col-6 col-sm-6 col-md-4 d-md-none">
-
-              <!-- Card -->
-              <div class="card mb-0">
-
-                <!-- Image -->
-                <img class="card-img-top" src="assets/img/products/product-87.jpg" alt="...">
-
-                <!-- Body -->
-                <div class="card-body px-0 pb-0 bg-white">
-                  <div class="row no-gutters">
-                    <div class="col">
-
-                      <!-- Title -->
-                      <a class="d-block font-weight-bold text-body" href="product.html">
-                        White Summer Hat
-                      </a>
-
-                      <!-- Category -->
-                      <a class="font-size-xs text-muted" href="shop.html">
-                        Hats
-                      </a>
-
-                    </div>
-                    <div class="col-auto">
-
-                      <!-- Price -->
-                      <div class="font-size-sm font-weight-bold text-muted">
-                        $15.00
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
             </div>
           </div>
-
         </div>
       </div>
     </div>
   </section>
-  <section class=" py-10">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-3">
 
-          <!-- Item -->
-          <div class="d-flex mb-6 mb-lg-0">
-
-            <!-- Icon -->
-            <i class="bi bi-truck " style=" font-size: 2rem; color:#4f00c0 ;"></i>
-
-            <!-- Body -->
-            <div class="ml-6">
-
-              <!-- Heading -->
-              <h6 class="heading-xxs mb-1 text-center">
-                Free shipping
-              </h6>
-
-              <!-- Text -->
-              <p class="mb-0 font-size-sm text-muted">
-                From all orders over $100
-              </p>
-
+  <section class=" py-4 py-lg-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-3 col-sm-6 py-4 service-column ">
+            
+              <i class="bi bi-truck" style="font-size: 2rem; color:#4f00c0; "></i>
+  
+            <div class="service-text">
+              <h6 class="text-sm mb-1">Free shipping</h6>
+              <p class="text-muted font-weight-light text-sm mb-0"> From all orders over $100</p>
             </div>
-
           </div>
-
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-
-          <!-- Item -->
-          <div class="d-flex mb-6 mb-lg-0">
-
-            <!-- Icon -->
-            <i class=" bi bi-truck" style=" font-size: 2rem; color:#4f00c0 ;"></i>
-
-            <!-- Body -->
-            <div class="ml-6">
-
-              <!-- Heading -->
-              <h6 class="mb-1 heading-xxs text-center">
-                Free returns
-              </h6>
-
-              <!-- Text -->
-              <p class="mb-0 font-size-sm text-muted ">
-                Return money within 30 days
-              </p>
-
+          <div class="col-lg-3 col-sm-6 py-4 service-column">
+  
+              <i class="bi bi-box" style="font-size: 2rem; color:#4f00c0;"></i>
+  
+            <div class="service-text">
+              <h6 class="text-sm mb-1">Free returns</h6>
+              <p class="text-muted font-weight-light text-sm mb-0">Return money within 30 days</p>
             </div>
-
           </div>
-
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-
-          <!-- Item -->
-          <div class="d-flex mb-6 mb-md-0">
-
-            <!-- Icon -->
-            <i class="bi bi-file-lock" style=" font-size: 2rem; color:#4f00c0 ;"></i>
-
-            <!-- Body -->
-            <div class="ml-6">
-
-              <!-- Heading -->
-              <h6 class="mb-1 heading-xxs text-center">
-                Secure shopping
-              </h6>
-
-              <!-- Text -->
-              <p class="mb-0 font-size-sm text-muted">
-                You're in safe hands
-              </p>
-
+          <div class="col-lg-3 col-sm-6 py-4 service-column">
+  
+              <i class="bi bi-file-lock" style="font-size: 2rem; color:#4f00c0; "></i>
+  
+            <div class="service-text">
+              <h6 class="text-sm mb-1">Secure shopping</h6>
+              <p class="text-muted font-weight-light text-sm mb-0">You're in safe hands</p>
             </div>
-
+            
           </div>
-
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-
-          <!-- Item -->
-          <div class="d-flex">
-
-            <!-- Icon -->
-            <i class="bi bi-border-style" style=" font-size: 2rem; color:#4f00c0 ;"></i>
-
-            <!-- Body -->
-            <div class="ml-6">
-
-              <!-- Heading -->
-              <h6 class="mb-1 heading-xxs text-center">
-                Over 10,000 Styles
-              </h6>
-
-              <!-- Text -->
-              <p class="mb-0 font-size-sm text-muted">
-                We have everything you need
-              </p>
-
+          <div class="col-lg-3 col-sm-6 py-4 service-column">
+  
+              <i class="bi bi-list-ul" style="font-size: 2rem; color:#4f00c0; "></i>
+  
+            <div class="service-text">
+              <h6 class="text-sm mb-1">Over 10,000 Styles</h6>
+              <p class="text-muted font-weight-light text-sm mb-0">We have everything you need</p>
             </div>
-
           </div>
-
         </div>
       </div>
     </div>
