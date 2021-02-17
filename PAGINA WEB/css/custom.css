@@ -59,3 +59,29 @@ body{
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.cart-item-img {
+  max-width: 80px;
+}
+.badge-primary {
+  color: #212529;
+  background-color: #bcac76;
+}
+.badge-danger {
+  color: #fff;
+  background-color: #dc3545;
+}
+.badge-dark {
+  color: #fff;
+  background-color: #212529;
+}
+.cart-item {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e9ecef;
+}
+.cart-title {
+  margin-left: 1rem;
+}
+.text-left {
+  text-align: left!important;
+}
