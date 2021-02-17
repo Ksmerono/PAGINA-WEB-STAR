@@ -26,42 +26,36 @@ body{
 */
 
 
-.height-100 {
-  height: 100vh
-}
-
-.cardT {
-  border: none;
-  width: 100%;
-  min-width: 300px;
-  max-width: 400px;
-  border-radius: 12px;
+.btn-white-primary[data-toggle=button]:focus, .btn-white-primary[data-toggle=button]:hover {
   color: #fff;
-  background-image: linear-gradient(to right top, #280537, #56034c, #890058, #bc005b, #eb1254)
 }
 
-.number span {
-  font-size: 100%;
-  font-weight: 600
+.card-action-right {
+  right: 1.25rem;
+}
+.card-action {
+  position: absolute;
+  top: 1.25rem;
+  z-index: 1;
 }
 
-.cardholder,
-.expires {
-  font-weight: 600;
-  font-size: 100%
+.btn-sm {
+  display: inline-block;
+  font-weight: 500;
+  color: #111;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .875rem 1.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  border-radius: 0;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.name,
-.date {
-  font-size: 100%
-}
-
-.card-border {
-  border-top-left-radius: 30px !important;
-  border-top-right-radius: 30px !important;
-  border: none;
-  border-radius: 6px;
-  background-color: blue;
-  color: #fff;
-  background-image: linear-gradient(to right top, #0c0537, #440b51, #7f005d, #b9005b, #eb124b)
-}
