@@ -12,4 +12,84 @@ body{
     color: white !important;
     border-color: white !important;
 }
+/*<header>*/
+.logo{
+    height: 55px;
+  }
+.BSN{
+    box-shadow:none
+  }
+.fs2rW{
+    font-size: 2rem; 
+    color: rgb(255, 255, 255);
+ }
+ /*</header>*/
+/*<footer>*/
+ .br0{
+    border-radius: 0rem;
+ }
+ .w10{
+    width: 10em;
+ }
+ .OP100{
+    opacity: 100;
+ }
+ .w80{
+     width: 80%;
+ }/*</footer>*/
+ /*<main>*/
+ .w7{
+    width: 7%;
+ }
+ .topautoN{
+    top:auto
+ }
+ .nowmauto{
+    flex-wrap: nowrap;
+     margin: auto;
+ }
+ .wfs40{
+    color: white;
+     font-size:40px;"
+     
+ }
+ .z{
+    z-index: 500;
+ }
+ .cardsq{
+    display: flex; justify-content: center; align-items: center;
+ }
+ .logo2{
+    width: 20%;
+ }
+ .OP07{
+    opacity: 0.7;
+ }
+ .B0{
+    border: 0;
+ }
+ .DI3{
+    style="display: flex; justify-content: center; align-items: center;"
+ }
+ .--bs-gut {
+    --bs-gutter-x: 0;
+ }
+/*.p0mw20 {
+    padding: 0 0; 
+    min-width :20rem;
+ }
 
+
+ 
+ 
+ 
+ 
+ /*
+ 
+ .r0{
+    border-radius: 0rem;
+ }
+ .w10{
+    width: 10em;
+ }
+ 
