@@ -18,8 +18,8 @@
   <div class="container-fluid bg-dark">
     <div class="row ps-4 pe-4">
       <div class="col-lg-6 col-sm-12 text-lg-start text-center">
-        <buttom class="btn" onclick="window.location.href='index.html'"><img class="img-fluid" src="img/star_logo2.png"
-            style="height: 55px" alt="logo" /></buttom>
+        <buttom class="btn " onclick="window.location.href='index.html'"><img class="img-fluid logo" src="img/star_logo2.png"
+             alt="logo" /></buttom>
       </div>
 
 
@@ -27,15 +27,15 @@
 
 
       <div class="col-lg-6 col-sm-12 text-lg-end text-center">
-        
+
 
 
         <div class="btn-group">
-          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
-            data-bs-toggle="dropdown" aria-expanded="false" style="box-shadow:none">
-            <i class="bi bi-search" style="font-size: 2rem; color: rgb(255, 255, 255)"></i>
+          <button class="btn BSN dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+            aria-expanded="false" >
+            <i class="bi bi-search fs2rW" ></i>
           </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="padding: 0 0; min-width :20rem">
+          <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton">
             <li>
               <form>
                 <div class="form-group">
@@ -47,9 +47,9 @@
           </ul>
         </div>
 
-        <buttom class="btn ms-2 me-2"><i class="bi bi-heart " style="font-size: 2rem; color: rgb(255, 255, 255)"></i>
+        <buttom class="btn ms-2 me-2 fs2rW"><i class="bi bi-heart "></i>
         </buttom>
-        <buttom class="btn ms-2 me-2"><i class="bi bi-bag-fill " style="font-size: 2rem; color: rgb(255, 255, 255)"></i>
+        <buttom class="btn ms-2 me-2 fs2rW"><i class="bi bi-bag-fill "></i>
         </buttom>
       </div>
     </div>
@@ -86,13 +86,13 @@
 
 <section>
   <div class="container d-flex flex-column">
-      <div class="row align-items-center justify-content-center" style="min-height: 70vh !important;">
+      <div class="row align-items-center justify-content-center minh70" >
           <div class="col-md-8 col-lg-5 py-6">
 
 
               <div>
                   <div class="row pb-4">
-                      <img src="img/star_logo_negro.png" style="width: 60%;" class="mx-auto" ></div>
+                      <img src="img/star_logo_negro.png"  class="mx-auto w60" ></div>
                   </div>
 
                   <div class="mb-5 text-center">
@@ -133,24 +133,28 @@
                       </div>
                       
                       <div class="mt-4 text-center">
-                          <button type="button" id="botoncito" class="btn btn-block btn-primary" style="background-color: #4f00c0; border-color: #4f00c0;">Iniciar sesión</button>
+                          <button type="button" id="botoncito" class="btn btn-block btn-primary customColor3" >Iniciar sesión</button>
                       </div>
                   </form>
-                  <div class="pb-2 text-center" style="padding-top: 70px;">
+                  <div class="pb-2 text-center pt70" >
                       <span class="text-xs text-uppercase">Tambien inicia sesión con:</span>
                   </div>
                   <div class="row">
-                      <div class="col-6 text-center">
-                                      <img src="img/buttom_facebook.png" alt="Image placeholder" style="width: 100px;">
+                      <div class="col-6 text-center"><a href="https://developers.facebook.com/docs/facebook-login/web/login-button?locale=es_ES">
+                        <img src="img/buttom_facebook.png" alt="Image placeholder" class="wid100" >
+                      </a>
+                                     
                       </div>
-                      <div class="col-6 text-center">
+                      <div class="col-6 text-center"><a href="https://developers.google.com/identity/sign-in/web/sign-in">
+                        <img src="img/buttom_google.png" alt="Image placeholder" class="wid100" >
+                      </a>
 
-                                  <img src="img/buttom_google.png" alt="Image placeholder" style="width: 100px;">
+                                  
 
                       </div>
                   </div>
                   <div class="mt-4 text-center pb-5"><small>¿No tienes cuenta?</small>
-                      <a href="login.html" class="small font-weight-bold">Create in</a>
+                      <a href="./crear cuenta.html" class="small font-weight-bold">Create in</a>
                   </div>
               </div>
           </div>
@@ -187,106 +191,102 @@
 
 
 
-  <!---------------------------------------------CONTENEDOR DE OFERTAS---------------------------------------------->
-  <div class="alert alert-dismissible customColor mb-0" style="border-radius: 0rem">
-    <div class="row ps-4 pe-4 align-items-center">
-      <div class="col-md-9 col-7">
+ <!---------------------------------------------CONTENEDOR DE OFERTAS---------------------------------------------->
+ <div class="alert alert-dismissible customColor mb-0 br0" >
+  <div class="row ps-4 pe-4 align-items-center">
+    <div class="col-md-9 col-7">
 
-        <p class="text-end fw-bold fs-5 text-white mt-3 mp-4">
-          OFERTAS PARA ESTUDIANTES DE <br>
-          UNIVERSIDADES Y GRADOS SUPERIORES
-          
-        </p>
+      <p class="text-end fw-bold fs-5 text-white mt-3 mp-4">
+        OFERTAS PARA ESTUDIANTES DE <br>
+        UNIVERSIDADES Y GRADOS SUPERIORES
 
-      </div>
+      </p>
 
-      <div class="col-md-3 col-5 text-start ">
-        <button type="button" class="btn border border-light fw-bold border-3 text-wrap text-white" style="width: 10em ">
-          ACCEDE A LAS OFERTAS
-        </button>
-      </div>
-      
-      <button
-        type="button"
-        class="btn-close btn-close-white"
-        data-bs-dismiss="alert"
-       style="opacity: 100;"
-      ></button>
+    </div>
+
+    <div class="col-md-3 col-5 text-start ">
+      <button type="button" class="btn border border-light fw-bold border-3 text-wrap text-white w10"
+        >
+        ACCEDE A LAS OFERTAS
+      </button>
+    </div>
+
+    <button type="button" class="btn-close btn-close-white OP100" data-bs-dismiss="alert"></button>
+  </div>
+</div>
+<!---------------------------------------------CONTENEDOR DE CATEGORIAS---------------------------------------------->
+<div class="container-fluid shadow-lg  bg-white rounded">
+  <div class="row pt-3 mx-auto w80">
+    <div class="col text-center">
+      <ul class="list-unstyled ">
+        <li class="fw-bold">HOMBRE</li>
+        <li>CategoriaX</li>
+        <li>CategoriaX</li>
+        <li>CategoriaX</li>
+        <li>CategoriaX</li>
+      </ul>
+    </div>
+    <div class="col text-center">
+      <ul class="list-unstyled ">
+        <li class="fw-bold">MUJER</li>
+        <li>CategoriaX</li>
+        <li>CategoriaX</li>
+        <li>CategoriaX</li>
+        <li>CategoriaX</li>
+      </ul>
+    </div>
+    <div class="col text-center">
+      <ul class="list-unstyled ">
+        <li class="fw-bold">JUNIOR</li>
+        <li>CategoriaX</li>
+        <li>CategoriaX</li>
+        <li>CategoriaX</li>
+        <li>CategoriaX</li>
+      </ul>
+    </div>
+    <div class="col text-center">
+      <ul class="list-unstyled ">
+        <li class="fw-bold">COMPLEMENTOS</li>
+        <li>CategoriaX</li>
+        <li>CategoriaX</li>
+        <li>CategoriaX</li>
+        <li>CategoriaX</li>
+      </ul>
+    </div>
+    <div class="col text-center">
+      <ul class="list-unstyled ">
+        <li class="fw-bold">DECORACION</li>
+        <li>CategoriaX</li>
+        <li>CategoriaX</li>
+        <li>CategoriaX</li>
+        <li>CategoriaX</li>
+      </ul>
     </div>
   </div>
-  <!---------------------------------------------CONTENEDOR DE CATEGORIAS---------------------------------------------->
-  <div class="container-fluid shadow-lg  bg-white rounded">
-    <div class="row pt-3 mx-auto" style="width: 80%;">
-      <div class="col text-center">
-        <ul class="list-unstyled ">
-          <li class="fw-bold">HOMBRE</li>
-          <li>CategoriaX</li>
-          <li>CategoriaX</li>
-          <li>CategoriaX</li>
-          <li>CategoriaX</li>
-        </ul>
-      </div>
-      <div class="col text-center">
-        <ul class="list-unstyled ">
-          <li class="fw-bold">MUJER</li>
-          <li>CategoriaX</li>
-          <li>CategoriaX</li>
-          <li>CategoriaX</li>
-          <li>CategoriaX</li>
-        </ul>
-      </div>
-      <div class="col text-center">
-        <ul class="list-unstyled ">
-          <li class="fw-bold">JUNIOR</li>
-          <li>CategoriaX</li>
-          <li>CategoriaX</li>
-          <li>CategoriaX</li>
-          <li>CategoriaX</li>
-        </ul>
-      </div>
-      <div class="col text-center">
-        <ul class="list-unstyled ">
-          <li class="fw-bold">COMPLEMENTOS</li>
-          <li>CategoriaX</li>
-          <li>CategoriaX</li>
-          <li>CategoriaX</li>
-          <li>CategoriaX</li>
-        </ul>
-      </div>
-      <div class="col text-center">
-        <ul class="list-unstyled ">
-          <li class="fw-bold">DECORACION</li>
-          <li>CategoriaX</li>
-          <li>CategoriaX</li>
-          <li>CategoriaX</li>
-          <li>CategoriaX</li>
-        </ul>
-      </div>
+</div>
+<!---------------------------------------------CONTENEDOR DE FOOTER---------------------------------------------->
+<div class="container-fluid bg-dark text-white ">
+  <div class="row ps-4 pe-4">
+    <div class="col-lg-6 col-sm-12 text-lg-start text-center mb-2 mt-4 ">
+      <p>2021 © FASHION STAR</p>
+    </div>
+
+
+    <div class="col-lg-6 col-sm-12 text-lg-end text-center">
+
+      <buttom class="btn ms-2 me-2 mb-2 fs2rW "><i class="bi bi-twitter "
+          ></i></buttom>
+
+
+      <buttom class="btn ms-2 me-2 mb-2 fs2rW"><i class="bi bi-instagram"
+         ></i></buttom>
+
+      <buttom class="btn ms-2 me-2 mb-2 fs2rW"><i class="bi bi-facebook"
+          ></i></buttom>
+
     </div>
   </div>
-  <!---------------------------------------------CONTENEDOR DE FOOTER---------------------------------------------->
-  <div class="container-fluid bg-dark text-white ">
-    <div class="row ps-4 pe-4">
-      <div class="col-lg-6 col-sm-12 text-lg-start text-center mb-2 mt-4 ">
-        <p>2021 © FASHION STAR</p>
-      </div>
-
-
-      <div class="col-lg-6 col-sm-12 text-lg-end text-center">
-
-        <buttom class="btn ms-2 me-2 mb-2 "><i class="bi bi-twitter "
-            style="font-size: 2rem; color: rgb(255, 255, 255)"></i></buttom>
-
-
-        <buttom class="btn ms-2 me-2 mb-2"><i class="bi bi-instagram"
-            style="font-size: 2rem; color: rgb(255, 255, 255)"></i></buttom>
-
-        <buttom class="btn ms-2 me-2 mb-2"><i class="bi bi-facebook"
-            style="font-size: 2rem; color: rgb(255, 255, 255)"></i></buttom>
-
-      </div>
-    </div>
-  </div>
+</div>
 </body>
 
 </html>

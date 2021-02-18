@@ -5,7 +5,13 @@ body{
 .customColor{
     background-color: #4f00c0
 }
-
+.customColor2{
+   color:#4f00c0
+}
+.customColor3{
+   background-color: #4f00c0;
+   border-color: #4f00c0;
+}
 .customMenu
 {
     box-shadow: none !important;
@@ -13,3 +19,200 @@ body{
     border-color: white !important;
 }
 
+/*.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: rgba(255,255,255)!important; 
+  }
+  .accordion-button:focus {
+    z-index: 3;
+    border-color:white !important; 
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(255,255,255) !important;
+  }
+*/
+
+
+.btn-white-primary[data-toggle=button]:focus, .btn-white-primary[data-toggle=button]:hover {
+   color: #fff;
+ }
+ 
+ .card-action-right {
+   right: 1.25rem;
+ }
+ .card-action {
+   position: absolute;
+   top: 1.25rem;
+   z-index: 1;
+ }
+ 
+ .btn-sm {
+   display: inline-block;
+   font-weight: 500;
+   color: #111;
+   text-align: center;
+   vertical-align: middle;
+   cursor: pointer;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   background-color: transparent;
+   border: 1px solid transparent;
+   padding: .875rem 1.75rem;
+   font-size: 1rem;
+   line-height: 1.5rem;
+   border-radius: 0;
+   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+ }
+ 
+ .cart-item-img {
+   max-width: 80px;
+ }
+ .badge-primary {
+   color: #212529;
+   background-color: #bcac76;
+ }
+ .badge-danger {
+   color: #fff;
+   background-color: #dc3545;
+ }
+ .badge-dark {
+   color: #fff;
+   background-color: #212529;
+ }
+ .cart-item {
+   padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
+   border-bottom: 1px solid #e9ecef;
+ }
+ .cart-title {
+   margin-left: 1rem;
+ }
+ .text-left {
+   text-align: left!important;
+ }
+
+
+/*<header index>*/
+.logo{
+    height: 55px;
+  }
+.BSN{
+    box-shadow:none
+  }
+.fs2rW{
+    font-size: 2rem; 
+    color: rgb(255, 255, 255);
+ }
+ /*</header>*/
+/*<footer index>*/
+ .br0{
+    border-radius: 0rem;
+ }
+ .w10{
+    width: 10em;
+ }
+ .OP100{
+    opacity: 100;
+ }
+ .w80{
+     width: 80%;
+ }/*</footer>* /
+ /*<main index>*/
+ .w7{
+    width: 7%;
+ }
+ .topautoN{
+    top:auto
+ }
+ .nowmauto{
+    flex-wrap: nowrap;
+     margin: auto;
+ }
+ .wfs40{
+    color: white;
+     font-size:40px;"
+     
+ }
+ .z{
+    z-index: 500;
+ }
+ .cardsq{
+    display: flex; justify-content: center; align-items: center;
+ }
+ .logo2{
+    width: 20%;
+ }
+ .OP07{
+    opacity: 0.7;
+ }
+ .B0{
+    border: 0;
+ }
+ .DI3{
+    display: flex; justify-content: center; align-items: center;
+ }
+ .--bs-gut {
+    --bs-gutter-x: 0;
+ }
+/*</main>*/
+/*<carrusel index>*/
+.h300wauto{
+   height: 300px; 
+   width: auto; 
+   object-fit: cover;
+}
+
+/*</carrusel>*/
+/*<paginas blog index>*/
+.DI4{
+   display: flex; 
+   justify-content: center; 
+   align-items: end;
+   top: auto;
+}
+.btnW{
+   background-color: white; 
+   border-color: white;
+}
+/*</paginas blog>*/
+/*<Datos de la empresa index>*/
+.bg-imgA{
+   background-image: url(../img/fondo.jpg);
+}
+.alaj{
+   text-align: justify; 
+}
+/*</Datos de la empresa index>*/
+/*<Faq>*/
+.iconvioleta{
+   font-size: 2rem; color:#4f00c0;
+}
+/*login*/
+.minh70{
+   min-height: 70vh !important;
+}
+.w60{
+   width: 60%;
+}
+.pt70{
+   padding-top: 70px;
+}
+.wid100{
+   width: 100px;
+}
+/*contacto */
+.colorVW{
+   color: #2b0068;background-color: #ddd6e7;
+}
+/*blog*/
+.mw800{
+   max-width:800%
+}
+.mbnega20{
+   margin-bottom: -20px;
+}
+.h100OFc{
+   height: 100%; 
+   object-fit: cover;
+}
