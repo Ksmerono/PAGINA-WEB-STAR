@@ -8,6 +8,10 @@ body{
 .customColor2{
    color:#4f00c0
 }
+.customColor3{
+   background-color: #4f00c0;
+   border-color: #4f00c0;
+}
 .customMenu
 {
     box-shadow: none !important;
@@ -110,4 +114,17 @@ body{
 /*<Faq>*/
 .iconvioleta{
    font-size: 2rem; color:#4f00c0;
+}
+/*login*/
+.minh70{
+   min-height: 70vh !important;
+}
+.w60{
+   width: 60%;
+}
+.pt70{
+   padding-top: 70px;
+}
+.wid100{
+   width: 100px;
 }
