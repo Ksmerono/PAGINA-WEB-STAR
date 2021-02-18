@@ -36,7 +36,7 @@ body{
  }
  .w80{
      width: 80%;
- }/*</footer>*/
+ }/*</footer>* /
  /*<main>*/
  .w7{
     width: 7%;
@@ -69,27 +69,38 @@ body{
     border: 0;
  }
  .DI3{
-    style="display: flex; justify-content: center; align-items: center;"
+    display: flex; justify-content: center; align-items: center;
  }
  .--bs-gut {
     --bs-gutter-x: 0;
  }
-/*.p0mw20 {
-    padding: 0 0; 
-    min-width :20rem;
- }
-
-
- 
- 
- 
- 
- /*
- 
- .r0{
-    border-radius: 0rem;
- }
- .w10{
-    width: 10em;
- }
- 
+/*</main>*/
+/*<carrusel>*/
+.h300wauto{
+   height: 300px; 
+   width: auto; 
+   object-fit: cover;
+}
+.btbgcolor{
+   background-color: #4f00c0; border-color: #4f00c0;
+}
+/*</carrusel>*/
+/*<paginas blog>*/
+.DI4{
+   display: flex; 
+   justify-content: center; 
+   align-items: end;
+   top: auto;
+}
+.btnW{
+   background-color: white; 
+   border-color: white;
+}
+/*</paginas blog>*/
+/*<Datos de la empresa>*/
+.bg-imgA{
+   background-image: url(../img/fondo.jpg);
+}
+.alaj{
+   text-align: justify; 
+}
