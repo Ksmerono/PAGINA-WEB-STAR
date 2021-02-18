@@ -5,14 +5,16 @@ body{
 .customColor{
     background-color: #4f00c0
 }
-
+.customColor2{
+   color:#4f00c0
+}
 .customMenu
 {
     box-shadow: none !important;
     color: white !important;
     border-color: white !important;
 }
-/*<header>*/
+/*<header index>*/
 .logo{
     height: 55px;
   }
@@ -24,7 +26,7 @@ body{
     color: rgb(255, 255, 255);
  }
  /*</header>*/
-/*<footer>*/
+/*<footer index>*/
  .br0{
     border-radius: 0rem;
  }
@@ -37,7 +39,7 @@ body{
  .w80{
      width: 80%;
  }/*</footer>* /
- /*<main>*/
+ /*<main index>*/
  .w7{
     width: 7%;
  }
@@ -75,7 +77,7 @@ body{
     --bs-gutter-x: 0;
  }
 /*</main>*/
-/*<carrusel>*/
+/*<carrusel index>*/
 .h300wauto{
    height: 300px; 
    width: auto; 
@@ -85,7 +87,7 @@ body{
    background-color: #4f00c0; border-color: #4f00c0;
 }
 /*</carrusel>*/
-/*<paginas blog>*/
+/*<paginas blog index>*/
 .DI4{
    display: flex; 
    justify-content: center; 
@@ -97,10 +99,12 @@ body{
    border-color: white;
 }
 /*</paginas blog>*/
-/*<Datos de la empresa>*/
+/*<Datos de la empresa index>*/
 .bg-imgA{
    background-image: url(../img/fondo.jpg);
 }
 .alaj{
    text-align: justify; 
 }
+/*</Datos de la empresa index>*/
+/*<>*/
