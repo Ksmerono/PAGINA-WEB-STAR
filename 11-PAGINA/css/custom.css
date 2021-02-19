@@ -150,6 +150,9 @@ body{
     font-size: 2rem; 
     color: rgb(255, 255, 255);
  }
+ .fs2rW:hover{
+   color: #4f00c0 ;
+}
  /*</header>*/
 /*<footer index>*/
  .br0{
@@ -202,10 +205,18 @@ body{
    text-decoration: none;
    color: #fff;
  }
+ .linkcustom,.linkcustom2:hover{
+    color: #4f00c0 ;
+ }
  .linkcustom2{
    text-decoration: none;
    color:black;
  }
+ .linkcustom3{
+   text-decoration: none;
+   color:white;
+ }
+ 
  .--bs-gut {
     --bs-gutter-x: 0;
  }
