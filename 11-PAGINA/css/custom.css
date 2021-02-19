@@ -152,6 +152,14 @@ body{
  .DI3{
     display: flex; justify-content: center; align-items: center;
  }
+ .linkcustom{
+   text-decoration: none;
+   color: #fff;
+ }
+ .linkcustom2{
+   text-decoration: none;
+   color:black;
+ }
  .--bs-gut {
     --bs-gutter-x: 0;
  }
@@ -216,3 +224,9 @@ body{
    height: 100%; 
    object-fit: cover;
 }
+
+.textonegro {
+
+   color: black;
+ 
+ }
