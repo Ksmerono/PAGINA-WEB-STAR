@@ -205,7 +205,7 @@ body{
    text-decoration: none;
    color: #fff;
  }
- .linkcustom,.linkcustom2:hover{
+ .linkcustom2,.linkcustom:hover{
     color: #4f00c0 ;
  }
  .linkcustom2{
