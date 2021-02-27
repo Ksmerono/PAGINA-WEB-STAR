@@ -79,7 +79,7 @@
             <a class="nav-link text-dark" href="./galeriadeproductos.html">JUNIOR</a>
           </li>
           <li class="nav-item ms-5 me-5">
-            <a class="nav-link text-dark" href="./galeriadeproductos.html">Accesorios</a>
+            <a class="nav-link text-dark" href="./galeriadeproductos.html">ACCESORIOS</a>
           </li>
           <li class="nav-item ms-5 me-5">
             <a class="nav-link text-dark" href="./galeriadeproductos.html">DECORACIÓN</a>
@@ -103,41 +103,41 @@
               <li class="list-group-item d-flex justify-content-between lh-sm">
                 <div>
                   <h6 class="my-0">Nombre del producto</h6>
-                  <small class="text-muted">Brief description</small>
+                  <small class="text-muted">Descripción breve</small>
                 </div>
-                <span class="text-muted">$12</span>
+                <span class="text-muted">€12</span>
               </li>
               <li class="list-group-item d-flex justify-content-between lh-sm">
                 <div>
-                  <h6 class="my-0">Second product</h6>
-                  <small class="text-muted">Brief description</small>
+                  <h6 class="my-0">Segundo Producto</h6>
+                  <small class="text-muted">Descripción breve</small>
                 </div>
-                <span class="text-muted">$8</span>
+                <span class="text-muted">€8</span>
               </li>
               <li class="list-group-item d-flex justify-content-between lh-sm">
                 <div>
-                  <h6 class="my-0">Third item</h6>
-                  <small class="text-muted">Brief description</small>
+                  <h6 class="my-0">Tercer Producto</h6>
+                  <small class="text-muted">Descripción breve</small>
                 </div>
-                <span class="text-muted">$5</span>
+                <span class="text-muted">€5</span>
               </li>
               <li class="list-group-item d-flex justify-content-between bg-light">
                 <div class="text-success">
                   <h6 class="my-0">Descuento código</h6>
                   <small>EXAMPLECODE</small>
                 </div>
-                <span class="text-success">−$5</span>
+                <span class="text-success">−€5</span>
               </li>
               <li class="list-group-item d-flex justify-content-between">
-                <span>Total (USD)</span>
-                <strong>$20</strong>
+                <span>Total (EUR)</span>
+                <strong>€20</strong>
               </li>
             </ul>
 
             <form class="card p-2">
               <div class="input-group">
                 <input type="text" class="form-control" placeholder="Descuento código">
-                <button type="submit" class="btn btn-secondary">Redeem</button>
+                <button type="submit" class="btn btn-secondary">Aplicar</button>
               </div>
             </form>
           </div>
@@ -286,7 +286,7 @@
                       data-bs-toggle="collapse" data-bs-target="#checkoutPaymentCardCollapse" aria-expanded="true">
                     <!-- Label -->
                     <label class="custom-control-label font-size-sm text-body text-nowrap" for="checkoutPaymentCard">
-                      Credit Card <img class="ml-2" src="cards.svg" alt="...">
+                      Tarjeta de Crédito <img class="ml-2" src="img/cards.svg" alt="...">
                     </label>
                   </div>
                 </div>
@@ -305,7 +305,7 @@
                       </div>
                       <div class="col-12 col-md-6">
                         <div class="form-group mb-3">
-                          <label class="sr-only" for="checkoutPaymentCardName">Nombre en la tarjeta</label>
+                          <label class="sr-only" for="checkoutPaymentCardName">Titular</label>
                           <input class="form-control form-control-sm" id="checkoutPaymentCardName" type="text"
                             required="">
                         </div>
@@ -317,9 +317,18 @@
                         <div class="form-group mb-md-1 ">
                           <label class="sr-only" for="checkoutPaymentMonth">Mes</label>
                           <select class="form-select custom-select-sm" id="checkoutPaymentMonth">
-                            <option>January</option>
-                            <option>February</option>
-                            <option>March</option>
+                            <option>Enero</option>
+                            <option>Febrero</option>
+                            <option>Marzo</option>
+                            <option>Abril</option>
+                            <option>Mayo</option>
+                            <option>Junio</option>
+                            <option>Julio</option>
+                            <option>Agosto</option>
+                            <option>Septimbre</option>
+                            <option>Octubre</option>
+                            <option>Noviembe</option>
+                            <option>Diciembre</option>
                           </select>
                         </div>
                       </div>
@@ -327,9 +336,11 @@
                         <div class="form-group mb-md-0">
                           <label class="sr-only" for="checkoutPaymentCardYear">Año</label>
                           <select class="form-select custom-select-sm" id="checkoutPaymentCardYear">
-                            <option>2017</option>
-                            <option>2018</option>
-                            <option>2019</option>
+                            <option>2021</option>
+                            <option>2022</option>
+                            <option>2023</option>
+                            <option>2024</option>
+                            <option>2025</option>
                           </select>
                         </div>
                       </div>
@@ -362,11 +373,10 @@
 
                 <div class="form-check p-2 ps-4">
                   <input type="checkbox" class="form-check-input" id="save-info">
-                  <label class="form-check-label " for="save-info">Guardar mi información para la proxima vez</label>
+                  <label class="form-check-label " for="save-info">Guardar mi información para la próxima vez</label>
                 </div>
 
-                <button class="w-100 btn btn-primary btn-lg" style="background-color: #4f00c0;;" type="submit">Continue
-                  to checkout</button>
+                <button class="w-100 btn btn-primary btn-lg" style="background-color: #4f00c0;;" type="submit">Finalizar Compra</button>
             </form>
           </div>
 
@@ -387,7 +397,7 @@
               <input class="custom-control-input" id="checkoutPaymentPaypal" name="payment" type="radio" data-bs-toggle="collapse"  data-bs-target="#checkoutPaymentCardCollapse" aria-expanded="true">
               <!-- Label -->
               <label class="custom-control-label font-size-sm text-body text-nowrap " for="checkoutPaymentPaypal">
-                <img src="paypal.svg" alt="...">
+                <img src="img/paypal.svg" alt="...">
               </label>
             </div>
           </div>
@@ -400,7 +410,7 @@
               <input type="email" class="form-control" id="mail" placeholder="Email">
             </div>
             <div class="form-group col-md-4">
-              <a href="#!" class="btn btn-block btn-secondary" ">Pay with paypal</a>
+              <a href="#!" class="btn btn-block btn-secondary" ">Pago con paypal</a>
             </div>
           </div>
           
@@ -416,7 +426,7 @@
     </main>
 
     <footer class="my-5 pt-5 text-muted text-center text-small">
-      <p class="mb-1">&copy; 2017–2021 Company Name</p>
+      <p class="mb-1">&copy; 2020–2021 FASHION STAR</p>
       <ul class="list-inline">
         <li class="list-inline-item"><a href="#">Privacy</a></li>
         <li class="list-inline-item"><a href="#">Terms</a></li>
@@ -506,7 +516,7 @@
       </div>
       <div class="col text-center">
         <ul class="list-unstyled ">
-          <li class="fw-bold"><a href="./galeriadeproductos.html" class="customColor2 text-decoration-none"> DECORACION</a></li>
+          <li class="fw-bold"><a href="./galeriadeproductos.html" class="customColor2 text-decoration-none"> DECORACIÓN</a></li>
           <li>Cojines y Mantas
             </li>
           <li>Almacenaje
