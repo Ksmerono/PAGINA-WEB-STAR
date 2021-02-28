@@ -52,7 +52,7 @@ body {
 }
 
 .sidebar .nav-link.active {
-  color: #007bff;
+  color: #4f00c0 !important;
 }
 
 .sidebar .nav-link:hover .feather,
@@ -111,4 +111,29 @@ body {
 .form-group {
   display: flex;
   align-items: center;
+}
+
+.badge-green {
+  background-color: green;
+}
+
+.badge-green {
+  background-color: green;
+}
+
+.badge-orange {
+  background-color: orange;
+}
+
+.badge-star {
+  background-color: #4f00c0;;
+}
+
+.centradito {
+  margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
 }
