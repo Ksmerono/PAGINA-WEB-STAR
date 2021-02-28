@@ -137,3 +137,12 @@ left: 50%;
 transform: translate(-50%, -50%);
 
 }
+
+.table > tbody{
+  vertical-align: middle;
+}
+
+.text-star {
+  background-color: #4f00c0;
+  color: white; 
+}
