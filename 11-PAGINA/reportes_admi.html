@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FASHION STAR</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/dashboard.css" />
+  <link rel="stylesheet" href="css/dashboard.rtl.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 text-center " href="#"><img class=" logoto2" src="img/star_logo2.png"
+        alt="logo" /></a>
+
+
+
+    <button class="navbar-toggler position-absolute d-md-none collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+
+    <input class="form-control form-control-dark w-100" type="text" placeholder="Buscar" aria-label="Search">
+    <ul class="navbar-nav px-3 d-none d-md-block">
+      <li class="nav-item text-nowrap">
+        <i class="bi bi-box-arrow-right" style="font-size: 2rem; color: white;"></i>
+      </li>
+    </ul>
+
+
+</header>
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+        <div class="position-sticky pt-0 pt-md-4">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="administracion.html">
+                <span data-feather="home"></span>
+                Grafica de ventas
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="pedidos_admi.html">
+                <span data-feather="file"></span>
+                Pedidos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos_admi.html">
+                <span data-feather="shopping-cart"></span>
+                Productos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="usuarios_admi.html">
+                <span data-feather="users"></span>
+                Usuarios
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="reportes_admi.html">
+                <span data-feather="bar-chart-2"></span>
+                Reportes
+              </a>
+            </li>
+            
+
+            <li class="nav-item d-block d-md-none">
+              <a class="nav-link" href="#">
+                <i class="bi bi-box-arrow-right" style="font-size: 2rem; color: #4f00c0;"></i>
+              </a>
+            </li>
+
+
+
+
+
+          </ul>
+
+        </div>
+      </nav>
+
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+        <div class="app-content pt-3 p-md-3 p-lg-4">
+
+
+            <div class="row g-3 mb-4 align-items-center justify-content-between">
+              <div class="col-auto">
+                <h1 class="app-page-title mb-0">Reportes</h1>
+              </div>
+
+              <div class="app-content pt-3 p-md-3 p-lg-4">
+                
+                    <div class="app-card shadow-sm mb-4 border-left-decoration">
+                        <div class="inner">
+                           
+                                <div class="row ">
+                                    <div class="col-12 col-lg-9">
+                    <div class="row g-4 mb-4">
+                        <div class="col-12 col-lg-6">
+                            <div class="app-card app-card-chart h-100 shadow-sm">
+                                <div class="app-card-header p-3 border-0">
+                                    <h4 class="app-card-title">Area Line Chart Demo</h4>
+                                </div><!--//app-card-header-->
+                                <div class="app-card-body p-4">					   
+                                    <div class="chart-container"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                                        <canvas id="chart-line" style="display: block; height: 245px; width: 491px;" width="736" height="367" class="chartjs-render-monitor"></canvas>
+                                    </div>
+                                </div><!--//app-card-body-->
+                            </div><!--//app-card-->
+                        </div><!--//col-->
+                        <div class="col-12 col-lg-6">		        
+                            <div class="app-card app-card-chart h-100 shadow-sm">
+                                <div class="app-card-header p-3 border-0">
+                                    <h4 class="app-card-title">Bar Chart Demo</h4>
+                                </div><!--//app-card-header-->
+                                <div class="app-card-body p-4">					   
+                                    <div class="chart-container"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                                        <canvas id="chart-bar" width="736" height="367" class="chartjs-render-monitor" style="display: block; height: 245px; width: 491px;"></canvas>
+                                    </div>
+                                </div><!--//app-card-body-->
+                            </div><!--//app-card-->
+                        </div><!--//col-->
+                        <div class="col-12 col-lg-6">		        
+                            <div class="app-card app-card-chart h-100 shadow-sm">
+                                <div class="app-card-header p-3 border-0">
+                                    <h4 class="app-card-title">Pie Chart Demo</h4>
+                                </div><!--//app-card-header-->
+                                <div class="app-card-body p-4">					   
+                                    <div class="chart-container"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                                        <canvas id="chart-pie" width="736" height="367" class="chartjs-render-monitor" style="display: block; height: 245px; width: 491px;"></canvas>
+                                    </div>
+                                </div><!--//app-card-body-->
+                            </div><!--//app-card-->
+                        </div><!--//col-->
+                        <div class="col-12 col-lg-6">		        
+                            <div class="app-card app-card-chart h-100 shadow-sm">
+                                <div class="app-card-header p-3 border-0">
+                                    <h4 class="app-card-title">Doughnut Chart Demo</h4>
+                                </div><!--//app-card-header-->
+                                <div class="app-card-body p-4">					   
+                                    <div class="chart-container"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                                        <canvas id="chart-doughnut" width="736" height="367" class="chartjs-render-monitor" style="display: block; height: 245px; width: 491px;"></canvas>
+                                    </div>
+                                </div><!--//app-card-body-->
+                            </div><!--//app-card-->
+                        </div><!--//col-->
+                    </div><!--//row-->
+                </div><!--//container-fluid-->
+            </div>
+        </main>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"
+    integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"
+    integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha"
+    crossorigin="anonymous"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="js/reportes.js"></script>
+
+
+</body>
+
+</html>
